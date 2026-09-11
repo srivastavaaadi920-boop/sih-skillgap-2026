@@ -1,0 +1,497 @@
+// Prisma schema file
+// https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ============================================
+// ENUMS
+// ============================================
+
+enum UserRole {
+  STUDENT
+  INDUSTRY
+  ACADEMICIAN
+  INSTITUTION_ADMIN
+}
+
+enum Domain {
+  TECHNOLOGY
+  AYUSH
+}
+
+enum SkillCategory {
+  TECHNICAL
+  SOFT
+}
+
+enum OpportunityType {
+  INTERNSHIP
+  JOB
+  TRAINING
+  APPRENTICESHIP
+}
+
+enum OpportunityStatus {
+  OPEN
+  CLOSED
+}
+
+enum ApplicationStatus {
+  APPLIED
+  SHORTLISTED
+  SELECTED
+  REJECTED
+  COMPLETED
+}
+
+enum PortfolioItemType {
+  SKILL_CERT
+  PROJECT
+  INTERNSHIP
+  ACHIEVEMENT
+}
+
+enum SkillLevel {
+  BEGINNER
+  INTERMEDIATE
+  ADVANCED
+}
+
+enum QuestionType {
+  CONCEPTUAL_MCQ
+  CODE_OUTPUT_PREDICTION
+  DEBUG_SNIPPET
+  FILL_IN_BLANK_CODE
+  SCENARIO_MCQ
+  SITUATIONAL_JUDGMENT
+}
+
+enum TestStatus {
+  IN_PROGRESS
+  PASSED
+  FAILED
+}
+
+// ============================================
+// USER & PROFILES
+// ============================================
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  role         UserRole
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // Relations (one-to-one, optional based on role)
+  studentProfile     StudentProfile?
+  industryProfile    IndustryProfile?
+  academicianProfile AcademicianProfile?
+
+  @@index([email])
+  @@index([role])
+}
+
+model StudentProfile {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  institutionName String
+  course          String
+  yearOfStudy     Int
+  bio             String?
+  selectedDomain  Domain?  // New: TECHNOLOGY or AYUSH (chosen in Step 0)
+  fieldId         String?  // New: chosen field of interest
+  goalId          String?  // New: chosen career goal
+  hasCompletedOnboarding Boolean @default(false) // New: tracks if onboarding is complete
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  user                   User                     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  field                  Field?                   @relation(fields: [fieldId], references: [id], onDelete: SetNull)
+  goal                   Goal?                    @relation(fields: [goalId], references: [id], onDelete: SetNull)
+  skillAssessments       SkillAssessment[]
+  skillProfile           SkillProfile?
+  studentSkillSelections StudentSkillSelection[]  // New: self-rated skill selections
+  testAttempts           TestAttempt[]            // New: skill verification test attempts
+  servedQuestions        ServedQuestion[]         // New: tracks questions shown to prevent repeats
+  applications           Application[]
+  portfolioItems         PortfolioItem[]
+
+  @@index([userId])
+  @@index([institutionName])
+  @@index([fieldId])
+  @@index([goalId])
+}
+
+model IndustryProfile {
+  id           String   @id @default(cuid())
+  userId       String   @unique
+  companyName  String
+  industryType String
+  website      String?
+  description  String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+
+  // Relations
+  user          User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  opportunities Opportunity[]
+
+  @@index([userId])
+  @@index([companyName])
+}
+
+model AcademicianProfile {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  institutionName String
+  department      String
+  designation     String
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([institutionName])
+}
+
+// ============================================
+// SKILLS TAXONOMY & ASSESSMENT
+// ============================================
+
+// New: Field of interest (e.g. Software Development, Data Science, Ayurveda Clinical Practice)
+model Field {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  domain    Domain   // TECHNOLOGY or AYUSH
+  createdAt DateTime @default(now())
+
+  // Relations
+  goals           Goal[]
+  studentProfiles StudentProfile[]
+  fieldSkills     FieldSkill[] // New: maps which skills belong to this field
+
+  @@index([name])
+  @@index([domain])
+}
+
+// New: Career goal within a field (e.g. Frontend Developer, Data Analyst)
+model Goal {
+  id        String   @id @default(cuid())
+  fieldId   String
+  title     String
+  createdAt DateTime @default(now())
+
+  // Relations
+  field           Field            @relation(fields: [fieldId], references: [id], onDelete: Cascade)
+  studentProfiles StudentProfile[]
+  goalSkills      GoalSkill[]      // New: required skills for this goal
+
+  @@unique([fieldId, title]) // Each goal title is unique per field
+  @@index([fieldId])
+  @@index([title])
+}
+
+model Skill {
+  id        String        @id @default(cuid())
+  name      String        @unique
+  category  SkillCategory
+  isCustom  Boolean       @default(false) // New: marks student-added custom skills
+
+  // Relations
+  skillAssessmentAnswers SkillAssessmentAnswer[]
+  skillProfileEntries    SkillProfileEntry[]
+  opportunitySkills      OpportunitySkill[]
+  studentSkillSelections StudentSkillSelection[] // New: for self-rated selections
+  questions              Question[]              // New: for skill verification questions
+  testAttempts           TestAttempt[]           // New: for tracking test attempts per skill
+  fieldSkills            FieldSkill[]            // New: maps which fields this skill belongs to
+  goalSkills             GoalSkill[]             // New: maps required skills to goals
+
+  @@index([category])
+  @@index([name])
+  @@index([isCustom])
+}
+
+// New: Join table mapping skills to specific fields
+model FieldSkill {
+  id        String   @id @default(cuid())
+  fieldId   String
+  skillId   String
+  createdAt DateTime @default(now())
+
+  // Relations
+  field Field @relation(fields: [fieldId], references: [id], onDelete: Cascade)
+  skill Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([fieldId, skillId]) // Each skill appears once per field
+  @@index([fieldId])
+  @@index([skillId])
+}
+
+// New: Join table mapping required skills to specific goals
+model GoalSkill {
+  id            String     @id @default(cuid())
+  goalId        String
+  skillId       String
+  requiredLevel SkillLevel // BEGINNER, INTERMEDIATE, or ADVANCED
+  createdAt     DateTime   @default(now())
+
+  // Relations
+  goal  Goal  @relation(fields: [goalId], references: [id], onDelete: Cascade)
+  skill Skill @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([goalId, skillId]) // Each skill appears once per goal
+  @@index([goalId])
+  @@index([skillId])
+}
+
+// New: Question bank for skill verification tests
+model Question {
+  id                  String       @id @default(cuid())
+  skillId             String
+  type                QuestionType
+  difficultyLevel     SkillLevel
+  promptText          String       @db.Text
+  codeSnippet         String?      @db.Text // For code-related question types
+  options             Json // Array of choice strings
+  correctAnswerIndex  Int
+  explanation         String       @db.Text
+  timeLimitSeconds    Int // 60 for MCQ, 90 for code-tracing
+  isAIGenerated       Boolean      @default(false) // Hand-seeded vs AI-generated
+  createdAt           DateTime     @default(now())
+
+  // Relations
+  skill       Skill        @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  testAnswers TestAnswer[]
+
+  @@index([skillId, difficultyLevel])
+  @@index([type])
+}
+
+// New: Test attempt for skill verification
+model TestAttempt {
+  id                 String      @id @default(cuid())
+  studentProfileId   String
+  skillId            String
+  startedAt          DateTime    @default(now())
+  completedAt        DateTime?
+  status             TestStatus  @default(IN_PROGRESS)
+  finalVerifiedLevel SkillLevel? // Set when completed: BEGINNER/INTERMEDIATE/ADVANCED
+
+  // Relations
+  studentProfile StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  skill          Skill          @relation(fields: [skillId], references: [id], onDelete: Cascade)
+  answers        TestAnswer[]
+
+  @@index([studentProfileId])
+  @@index([skillId])
+  @@index([status])
+  @@index([startedAt])
+}
+
+// New: Individual answer within a test attempt
+model TestAnswer {
+  id                  String   @id @default(cuid())
+  testAttemptId       String
+  questionId          String
+  selectedAnswerIndex Int
+  isCorrect           Boolean
+  timeTakenSeconds    Int
+  answeredAt          DateTime @default(now())
+
+  // Relations
+  testAttempt TestAttempt @relation(fields: [testAttemptId], references: [id], onDelete: Cascade)
+  question    Question    @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  @@index([testAttemptId])
+  @@index([questionId])
+}
+
+// New: Tracks questions served to student (never repeat)
+model ServedQuestion {
+  id               String   @id @default(cuid())
+  studentProfileId String
+  questionId       String
+  servedAt         DateTime @default(now())
+
+  // Relations
+  studentProfile StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+
+  @@unique([studentProfileId, questionId]) // Never serve same question twice to same student
+  @@index([studentProfileId])
+}
+
+// New: Student's self-rated skill selections (what they claim to know)
+model StudentSkillSelection {
+  id               String     @id @default(cuid())
+  studentProfileId String
+  skillId          String
+  selfRatedLevel   SkillLevel // Beginner, Intermediate, Advanced
+  createdAt        DateTime   @default(now())
+
+  // Relations
+  studentProfile StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  skill          Skill          @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([studentProfileId, skillId])
+  @@index([studentProfileId])
+  @@index([skillId])
+}
+
+model SkillAssessment {
+  id               String   @id @default(cuid())
+  studentProfileId String
+  submittedAt      DateTime @default(now())
+
+  // Relations
+  studentProfile StudentProfile          @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  answers        SkillAssessmentAnswer[]
+
+  @@index([studentProfileId])
+  @@index([submittedAt])
+}
+
+model SkillAssessmentAnswer {
+  id                String @id @default(cuid())
+  skillAssessmentId String
+  skillId           String
+  score             Int // 1-5 self-rated proficiency
+
+  // Relations
+  skillAssessment SkillAssessment @relation(fields: [skillAssessmentId], references: [id], onDelete: Cascade)
+  skill           Skill           @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([skillAssessmentId, skillId])
+  @@index([skillAssessmentId])
+  @@index([skillId])
+}
+
+model SkillProfile {
+  id               String   @id @default(cuid())
+  studentProfileId String   @unique
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  // Relations
+  studentProfile StudentProfile      @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  entries        SkillProfileEntry[]
+
+  @@index([studentProfileId])
+}
+
+model SkillProfileEntry {
+  id               String      @id @default(cuid())
+  skillProfileId   String
+  skillId          String
+  proficiencyLevel Int         // Current skill level (1-5 legacy or mapped from SkillLevel)
+  verifiedLevel    SkillLevel? // New: verified level after test (null until tested)
+  isVerified       Boolean     @default(false) // New: whether this skill has been test-verified
+
+  // Relations
+  skillProfile SkillProfile @relation(fields: [skillProfileId], references: [id], onDelete: Cascade)
+  skill        Skill        @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([skillProfileId, skillId])
+  @@index([skillProfileId])
+  @@index([skillId])
+  @@index([isVerified])
+}
+
+// ============================================
+// OPPORTUNITIES & APPLICATIONS
+// ============================================
+
+model Opportunity {
+  id                String            @id @default(cuid())
+  industryProfileId String
+  title             String
+  description       String
+  type              OpportunityType
+  location          String?
+  isRemote          Boolean           @default(false)
+  postedAt          DateTime          @default(now())
+  deadline          DateTime?
+  status            OpportunityStatus @default(OPEN)
+
+  // Relations
+  industryProfile   IndustryProfile    @relation(fields: [industryProfileId], references: [id], onDelete: Cascade)
+  requiredSkills    OpportunitySkill[]
+  applications      Application[]
+
+  @@index([industryProfileId])
+  @@index([status])
+  @@index([type])
+  @@index([postedAt])
+}
+
+model OpportunitySkill {
+  id             String @id @default(cuid())
+  opportunityId  String
+  skillId        String
+  minProficiency Int // Minimum proficiency level required
+
+  // Relations
+  opportunity Opportunity @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+  skill       Skill       @relation(fields: [skillId], references: [id], onDelete: Cascade)
+
+  @@unique([opportunityId, skillId])
+  @@index([opportunityId])
+  @@index([skillId])
+}
+
+model Application {
+  id               String            @id @default(cuid())
+  studentProfileId String
+  opportunityId    String
+  status           ApplicationStatus @default(APPLIED)
+  appliedAt        DateTime          @default(now())
+  updatedAt        DateTime          @updatedAt
+
+  // Relations
+  studentProfile StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+  opportunity    Opportunity    @relation(fields: [opportunityId], references: [id], onDelete: Cascade)
+
+  @@unique([studentProfileId, opportunityId])
+  @@index([studentProfileId])
+  @@index([opportunityId])
+  @@index([status])
+  @@index([appliedAt])
+}
+
+// ============================================
+// PORTFOLIO & ACHIEVEMENTS
+// ============================================
+
+model PortfolioItem {
+  id               String              @id @default(cuid())
+  studentProfileId String
+  type             PortfolioItemType
+  title            String
+  description      String?
+  issuedBy         String?
+  verified         Boolean             @default(false)
+  dateIssued       DateTime?
+  fileUrl          String?
+  createdAt        DateTime            @default(now())
+
+  // Relations
+  studentProfile StudentProfile @relation(fields: [studentProfileId], references: [id], onDelete: Cascade)
+
+  @@index([studentProfileId])
+  @@index([type])
+  @@index([verified])
+}

@@ -1,0 +1,541 @@
+Field,Goal,Skill Name,Skill Category
+Ayurveda Clinical Practice,Ayurvedic Physician,Nadi Pariksha,TECHNICAL
+Ayurveda Clinical Practice,Ayurvedic Physician,Dravyaguna,TECHNICAL
+Ayurveda Clinical Practice,Ayurvedic Physician,Roga Nidana,TECHNICAL
+Ayurveda Clinical Practice,Ayurvedic Physician,Ayurvedic Case Documentation,TECHNICAL
+Ayurveda Clinical Practice,Ayurvedic Physician,Ashtavidha Pariksha,TECHNICAL
+Ayurveda Clinical Practice,Ayurvedic Physician,Prakriti Assessment,TECHNICAL
+Ayurveda Clinical Practice,Ayurvedic Physician,Kaya Chikitsa,TECHNICAL
+Ayurveda Clinical Practice,Ayurvedic Physician,Patient Counseling,SOFT
+Ayurveda Clinical Practice,Ayurvedic Physician,Cross-system Medical Communication,SOFT
+Ayurveda Clinical Practice,Clinical Consultant,Nadi Pariksha,TECHNICAL
+Ayurveda Clinical Practice,Clinical Consultant,Dravyaguna,TECHNICAL
+Ayurveda Clinical Practice,Clinical Consultant,Roga Nidana,TECHNICAL
+Ayurveda Clinical Practice,Clinical Consultant,Ayurvedic Case Documentation,TECHNICAL
+Ayurveda Clinical Practice,Clinical Consultant,Ashtavidha Pariksha,TECHNICAL
+Ayurveda Clinical Practice,Clinical Consultant,Prakriti Assessment,TECHNICAL
+Ayurveda Clinical Practice,Clinical Consultant,Kaya Chikitsa,TECHNICAL
+Ayurveda Clinical Practice,Clinical Consultant,Patient Counseling,SOFT
+Ayurveda Clinical Practice,Clinical Consultant,Cross-system Medical Communication,SOFT
+Ayurveda Clinical Practice,Wellness Practitioner,Nadi Pariksha,TECHNICAL
+Ayurveda Clinical Practice,Wellness Practitioner,Dravyaguna,TECHNICAL
+Ayurveda Clinical Practice,Wellness Practitioner,Roga Nidana,TECHNICAL
+Ayurveda Clinical Practice,Wellness Practitioner,Ayurvedic Case Documentation,TECHNICAL
+Ayurveda Clinical Practice,Wellness Practitioner,Ashtavidha Pariksha,TECHNICAL
+Ayurveda Clinical Practice,Wellness Practitioner,Prakriti Assessment,TECHNICAL
+Ayurveda Clinical Practice,Wellness Practitioner,Kaya Chikitsa,TECHNICAL
+Ayurveda Clinical Practice,Wellness Practitioner,Patient Counseling,SOFT
+Ayurveda Clinical Practice,Wellness Practitioner,Cross-system Medical Communication,SOFT
+Panchakarma Therapy,Panchakarma Specialist,Vamana & Virechana Techniques,TECHNICAL
+Panchakarma Therapy,Panchakarma Specialist,Basti Therapy,TECHNICAL
+Panchakarma Therapy,Panchakarma Specialist,Abhyanga,TECHNICAL
+Panchakarma Therapy,Panchakarma Specialist,Snehana & Swedana,TECHNICAL
+Panchakarma Therapy,Panchakarma Specialist,Detox Protocol Planning,TECHNICAL
+Panchakarma Therapy,Panchakarma Specialist,Nasya Therapy,TECHNICAL
+Panchakarma Therapy,Panchakarma Specialist,Raktamokshana,TECHNICAL
+Panchakarma Therapy,Panchakarma Specialist,Pre/Post Procedure Care,SOFT
+Panchakarma Therapy,Panchakarma Specialist,Patient Safety Monitoring,SOFT
+Panchakarma Therapy,Detox Therapist,Vamana & Virechana Techniques,TECHNICAL
+Panchakarma Therapy,Detox Therapist,Basti Therapy,TECHNICAL
+Panchakarma Therapy,Detox Therapist,Abhyanga,TECHNICAL
+Panchakarma Therapy,Detox Therapist,Snehana & Swedana,TECHNICAL
+Panchakarma Therapy,Detox Therapist,Detox Protocol Planning,TECHNICAL
+Panchakarma Therapy,Detox Therapist,Nasya Therapy,TECHNICAL
+Panchakarma Therapy,Detox Therapist,Raktamokshana,TECHNICAL
+Panchakarma Therapy,Detox Therapist,Pre/Post Procedure Care,SOFT
+Panchakarma Therapy,Detox Therapist,Patient Safety Monitoring,SOFT
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Vamana & Virechana Techniques,TECHNICAL
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Basti Therapy,TECHNICAL
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Abhyanga,TECHNICAL
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Snehana & Swedana,TECHNICAL
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Detox Protocol Planning,TECHNICAL
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Nasya Therapy,TECHNICAL
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Raktamokshana,TECHNICAL
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Pre/Post Procedure Care,SOFT
+Panchakarma Therapy,Ayurvedic Therapy Consultant,Patient Safety Monitoring,SOFT
+Yoga Therapy & Instruction,Yoga Therapist,Asana Sequencing,TECHNICAL
+Yoga Therapy & Instruction,Yoga Therapist,Pranayama Techniques,TECHNICAL
+Yoga Therapy & Instruction,Yoga Therapist,Yoga Chikitsa,TECHNICAL
+Yoga Therapy & Instruction,Yoga Therapist,Meditation Facilitation,TECHNICAL
+Yoga Therapy & Instruction,Yoga Therapist,Group Class Management,SOFT
+Yoga Therapy & Instruction,Yoga Therapist,Anatomy for Yoga,TECHNICAL
+Yoga Therapy & Instruction,Yoga Therapist,Mudra & Bandha Practice,TECHNICAL
+Yoga Therapy & Instruction,Yoga Therapist,Yoga Nidra Instruction,TECHNICAL
+Yoga Therapy & Instruction,Yoga Therapist,Motivational Coaching,SOFT
+Yoga Therapy & Instruction,Yoga Instructor,Asana Sequencing,TECHNICAL
+Yoga Therapy & Instruction,Yoga Instructor,Pranayama Techniques,TECHNICAL
+Yoga Therapy & Instruction,Yoga Instructor,Yoga Chikitsa,TECHNICAL
+Yoga Therapy & Instruction,Yoga Instructor,Meditation Facilitation,TECHNICAL
+Yoga Therapy & Instruction,Yoga Instructor,Group Class Management,SOFT
+Yoga Therapy & Instruction,Yoga Instructor,Anatomy for Yoga,TECHNICAL
+Yoga Therapy & Instruction,Yoga Instructor,Mudra & Bandha Practice,TECHNICAL
+Yoga Therapy & Instruction,Yoga Instructor,Yoga Nidra Instruction,TECHNICAL
+Yoga Therapy & Instruction,Yoga Instructor,Motivational Coaching,SOFT
+Yoga Therapy & Instruction,Wellness Coach,Asana Sequencing,TECHNICAL
+Yoga Therapy & Instruction,Wellness Coach,Pranayama Techniques,TECHNICAL
+Yoga Therapy & Instruction,Wellness Coach,Yoga Chikitsa,TECHNICAL
+Yoga Therapy & Instruction,Wellness Coach,Meditation Facilitation,TECHNICAL
+Yoga Therapy & Instruction,Wellness Coach,Group Class Management,SOFT
+Yoga Therapy & Instruction,Wellness Coach,Anatomy for Yoga,TECHNICAL
+Yoga Therapy & Instruction,Wellness Coach,Mudra & Bandha Practice,TECHNICAL
+Yoga Therapy & Instruction,Wellness Coach,Yoga Nidra Instruction,TECHNICAL
+Yoga Therapy & Instruction,Wellness Coach,Motivational Coaching,SOFT
+Naturopathy,Naturopathic Doctor,Hydrotherapy,TECHNICAL
+Naturopathy,Naturopathic Doctor,Mud Therapy,TECHNICAL
+Naturopathy,Naturopathic Doctor,Fasting Therapy,TECHNICAL
+Naturopathy,Naturopathic Doctor,Naturopathic Diagnosis,TECHNICAL
+Naturopathy,Naturopathic Doctor,Lifestyle & Diet Prescription,TECHNICAL
+Naturopathy,Naturopathic Doctor,Acupressure,TECHNICAL
+Naturopathy,Naturopathic Doctor,Chromotherapy,TECHNICAL
+Naturopathy,Naturopathic Doctor,Magnet Therapy,TECHNICAL
+Naturopathy,Naturopathic Doctor,Holistic Wellness Planning,SOFT
+Naturopathy,Natural Healing Practitioner,Hydrotherapy,TECHNICAL
+Naturopathy,Natural Healing Practitioner,Mud Therapy,TECHNICAL
+Naturopathy,Natural Healing Practitioner,Fasting Therapy,TECHNICAL
+Naturopathy,Natural Healing Practitioner,Naturopathic Diagnosis,TECHNICAL
+Naturopathy,Natural Healing Practitioner,Lifestyle & Diet Prescription,TECHNICAL
+Naturopathy,Natural Healing Practitioner,Acupressure,TECHNICAL
+Naturopathy,Natural Healing Practitioner,Chromotherapy,TECHNICAL
+Naturopathy,Natural Healing Practitioner,Magnet Therapy,TECHNICAL
+Naturopathy,Natural Healing Practitioner,Holistic Wellness Planning,SOFT
+Naturopathy,Lifestyle Medicine Consultant,Hydrotherapy,TECHNICAL
+Naturopathy,Lifestyle Medicine Consultant,Mud Therapy,TECHNICAL
+Naturopathy,Lifestyle Medicine Consultant,Fasting Therapy,TECHNICAL
+Naturopathy,Lifestyle Medicine Consultant,Naturopathic Diagnosis,TECHNICAL
+Naturopathy,Lifestyle Medicine Consultant,Lifestyle & Diet Prescription,TECHNICAL
+Naturopathy,Lifestyle Medicine Consultant,Acupressure,TECHNICAL
+Naturopathy,Lifestyle Medicine Consultant,Chromotherapy,TECHNICAL
+Naturopathy,Lifestyle Medicine Consultant,Magnet Therapy,TECHNICAL
+Naturopathy,Lifestyle Medicine Consultant,Holistic Wellness Planning,SOFT
+Unani Medicine,Unani Physician,Ilaj-bil-Tadbeer,TECHNICAL
+Unani Medicine,Unani Physician,Mizaj Assessment,TECHNICAL
+Unani Medicine,Unani Physician,Unani Pharmacology,TECHNICAL
+Unani Medicine,Unani Physician,Hijama,TECHNICAL
+Unani Medicine,Unani Physician,Ilaj-bil-Ghiza,TECHNICAL
+Unani Medicine,Unani Physician,Munafeh-e-Aza,TECHNICAL
+Unani Medicine,Unani Physician,Ilaj-bil-Dawa,TECHNICAL
+Unani Medicine,Unani Physician,Patient History Taking,SOFT
+Unani Medicine,Unani Physician,Documentation & Case Recording,SOFT
+Unani Medicine,Traditional Medicine Practitioner,Ilaj-bil-Tadbeer,TECHNICAL
+Unani Medicine,Traditional Medicine Practitioner,Mizaj Assessment,TECHNICAL
+Unani Medicine,Traditional Medicine Practitioner,Unani Pharmacology,TECHNICAL
+Unani Medicine,Traditional Medicine Practitioner,Hijama,TECHNICAL
+Unani Medicine,Traditional Medicine Practitioner,Ilaj-bil-Ghiza,TECHNICAL
+Unani Medicine,Traditional Medicine Practitioner,Munafeh-e-Aza,TECHNICAL
+Unani Medicine,Traditional Medicine Practitioner,Ilaj-bil-Dawa,TECHNICAL
+Unani Medicine,Traditional Medicine Practitioner,Patient History Taking,SOFT
+Unani Medicine,Traditional Medicine Practitioner,Documentation & Case Recording,SOFT
+Unani Medicine,Integrative Health Consultant,Ilaj-bil-Tadbeer,TECHNICAL
+Unani Medicine,Integrative Health Consultant,Mizaj Assessment,TECHNICAL
+Unani Medicine,Integrative Health Consultant,Unani Pharmacology,TECHNICAL
+Unani Medicine,Integrative Health Consultant,Hijama,TECHNICAL
+Unani Medicine,Integrative Health Consultant,Ilaj-bil-Ghiza,TECHNICAL
+Unani Medicine,Integrative Health Consultant,Munafeh-e-Aza,TECHNICAL
+Unani Medicine,Integrative Health Consultant,Ilaj-bil-Dawa,TECHNICAL
+Unani Medicine,Integrative Health Consultant,Patient History Taking,SOFT
+Unani Medicine,Integrative Health Consultant,Documentation & Case Recording,SOFT
+Siddha Medicine,Siddha Physician,Varmam Therapy,TECHNICAL
+Siddha Medicine,Siddha Physician,Gunapadam,TECHNICAL
+Siddha Medicine,Siddha Physician,Thokkanam,TECHNICAL
+Siddha Medicine,Siddha Physician,Naadi Pariksha,TECHNICAL
+Siddha Medicine,Siddha Physician,Siddha Toxicology,TECHNICAL
+Siddha Medicine,Siddha Physician,Kaya Kalpa,TECHNICAL
+Siddha Medicine,Siddha Physician,Herbo-mineral Formulation,TECHNICAL
+Siddha Medicine,Siddha Physician,Traditional Knowledge Documentation,SOFT
+Siddha Medicine,Siddha Physician,Community Health Outreach,SOFT
+Siddha Medicine,Traditional Healer,Varmam Therapy,TECHNICAL
+Siddha Medicine,Traditional Healer,Gunapadam,TECHNICAL
+Siddha Medicine,Traditional Healer,Thokkanam,TECHNICAL
+Siddha Medicine,Traditional Healer,Naadi Pariksha,TECHNICAL
+Siddha Medicine,Traditional Healer,Siddha Toxicology,TECHNICAL
+Siddha Medicine,Traditional Healer,Kaya Kalpa,TECHNICAL
+Siddha Medicine,Traditional Healer,Herbo-mineral Formulation,TECHNICAL
+Siddha Medicine,Traditional Healer,Traditional Knowledge Documentation,SOFT
+Siddha Medicine,Traditional Healer,Community Health Outreach,SOFT
+Siddha Medicine,Holistic Medicine Practitioner,Varmam Therapy,TECHNICAL
+Siddha Medicine,Holistic Medicine Practitioner,Gunapadam,TECHNICAL
+Siddha Medicine,Holistic Medicine Practitioner,Thokkanam,TECHNICAL
+Siddha Medicine,Holistic Medicine Practitioner,Naadi Pariksha,TECHNICAL
+Siddha Medicine,Holistic Medicine Practitioner,Siddha Toxicology,TECHNICAL
+Siddha Medicine,Holistic Medicine Practitioner,Kaya Kalpa,TECHNICAL
+Siddha Medicine,Holistic Medicine Practitioner,Herbo-mineral Formulation,TECHNICAL
+Siddha Medicine,Holistic Medicine Practitioner,Traditional Knowledge Documentation,SOFT
+Siddha Medicine,Holistic Medicine Practitioner,Community Health Outreach,SOFT
+Homoeopathy Practice,Homoeopathic Physician,Repertorization,TECHNICAL
+Homoeopathy Practice,Homoeopathic Physician,Materia Medica Knowledge,TECHNICAL
+Homoeopathy Practice,Homoeopathic Physician,Miasmatic Analysis,TECHNICAL
+Homoeopathy Practice,Homoeopathic Physician,Homoeopathic Case Taking,TECHNICAL
+Homoeopathy Practice,Homoeopathic Physician,Potentization Techniques,TECHNICAL
+Homoeopathy Practice,Homoeopathic Physician,Organon of Medicine Application,TECHNICAL
+Homoeopathy Practice,Homoeopathic Physician,Constitutional Prescribing,TECHNICAL
+Homoeopathy Practice,Homoeopathic Physician,Detailed Patient Interviewing,SOFT
+Homoeopathy Practice,Homoeopathic Physician,Analytical Case Reasoning,SOFT
+Homoeopathy Practice,Classical Homoeopath,Repertorization,TECHNICAL
+Homoeopathy Practice,Classical Homoeopath,Materia Medica Knowledge,TECHNICAL
+Homoeopathy Practice,Classical Homoeopath,Miasmatic Analysis,TECHNICAL
+Homoeopathy Practice,Classical Homoeopath,Homoeopathic Case Taking,TECHNICAL
+Homoeopathy Practice,Classical Homoeopath,Potentization Techniques,TECHNICAL
+Homoeopathy Practice,Classical Homoeopath,Organon of Medicine Application,TECHNICAL
+Homoeopathy Practice,Classical Homoeopath,Constitutional Prescribing,TECHNICAL
+Homoeopathy Practice,Classical Homoeopath,Detailed Patient Interviewing,SOFT
+Homoeopathy Practice,Classical Homoeopath,Analytical Case Reasoning,SOFT
+Homoeopathy Practice,Alternative Medicine Consultant,Repertorization,TECHNICAL
+Homoeopathy Practice,Alternative Medicine Consultant,Materia Medica Knowledge,TECHNICAL
+Homoeopathy Practice,Alternative Medicine Consultant,Miasmatic Analysis,TECHNICAL
+Homoeopathy Practice,Alternative Medicine Consultant,Homoeopathic Case Taking,TECHNICAL
+Homoeopathy Practice,Alternative Medicine Consultant,Potentization Techniques,TECHNICAL
+Homoeopathy Practice,Alternative Medicine Consultant,Organon of Medicine Application,TECHNICAL
+Homoeopathy Practice,Alternative Medicine Consultant,Constitutional Prescribing,TECHNICAL
+Homoeopathy Practice,Alternative Medicine Consultant,Detailed Patient Interviewing,SOFT
+Homoeopathy Practice,Alternative Medicine Consultant,Analytical Case Reasoning,SOFT
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,GMP Compliance,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,Herbal Formulation Development,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,Rasashastra,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,Batch Production Planning,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,Raw Material Sourcing,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,Bhasma Preparation,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,Quality Assurance Protocols,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,Packaging & Labeling Standards,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,AYUSH Formulation Scientist,Cross-functional QA Coordination,SOFT
+AYUSH Pharmaceutical Manufacturing,Production Manager,GMP Compliance,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Production Manager,Herbal Formulation Development,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Production Manager,Rasashastra,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Production Manager,Batch Production Planning,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Production Manager,Raw Material Sourcing,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Production Manager,Bhasma Preparation,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Production Manager,Quality Assurance Protocols,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Production Manager,Packaging & Labeling Standards,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Production Manager,Cross-functional QA Coordination,SOFT
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,GMP Compliance,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,Herbal Formulation Development,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,Rasashastra,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,Batch Production Planning,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,Raw Material Sourcing,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,Bhasma Preparation,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,Quality Assurance Protocols,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,Packaging & Labeling Standards,TECHNICAL
+AYUSH Pharmaceutical Manufacturing,Quality Assurance Lead,Cross-functional QA Coordination,SOFT
+Herbal Drug Quality Control & Testing,Quality Control Analyst,Pharmacognosy,TECHNICAL
+Herbal Drug Quality Control & Testing,Quality Control Analyst,Phytochemical Analysis,TECHNICAL
+Herbal Drug Quality Control & Testing,Quality Control Analyst,Standardization Techniques,TECHNICAL
+Herbal Drug Quality Control & Testing,Quality Control Analyst,HPLC/Analytical Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Quality Control Analyst,Adulteration Detection,TECHNICAL
+Herbal Drug Quality Control & Testing,Quality Control Analyst,Microbial Load Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Quality Control Analyst,Heavy Metal Screening,TECHNICAL
+Herbal Drug Quality Control & Testing,Quality Control Analyst,Stability Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Quality Control Analyst,Lab Documentation,SOFT
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,Pharmacognosy,TECHNICAL
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,Phytochemical Analysis,TECHNICAL
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,Standardization Techniques,TECHNICAL
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,HPLC/Analytical Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,Adulteration Detection,TECHNICAL
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,Microbial Load Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,Heavy Metal Screening,TECHNICAL
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,Stability Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Herbal Testing Specialist,Lab Documentation,SOFT
+Herbal Drug Quality Control & Testing,Laboratory Manager,Pharmacognosy,TECHNICAL
+Herbal Drug Quality Control & Testing,Laboratory Manager,Phytochemical Analysis,TECHNICAL
+Herbal Drug Quality Control & Testing,Laboratory Manager,Standardization Techniques,TECHNICAL
+Herbal Drug Quality Control & Testing,Laboratory Manager,HPLC/Analytical Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Laboratory Manager,Adulteration Detection,TECHNICAL
+Herbal Drug Quality Control & Testing,Laboratory Manager,Microbial Load Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Laboratory Manager,Heavy Metal Screening,TECHNICAL
+Herbal Drug Quality Control & Testing,Laboratory Manager,Stability Testing,TECHNICAL
+Herbal Drug Quality Control & Testing,Laboratory Manager,Lab Documentation,SOFT
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,AYUSH Licensing Procedures,TECHNICAL
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,Drug Regulatory Documentation,TECHNICAL
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,GMP/GLP Compliance,TECHNICAL
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,Import-Export Regulations,TECHNICAL
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,Labeling Compliance,TECHNICAL
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,AYUSH Premium Mark Certification,TECHNICAL
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,Pharmacovigilance for AYUSH Drugs,TECHNICAL
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,Regulatory Audit Preparation,TECHNICAL
+AYUSH Regulatory Affairs,Regulatory Affairs Specialist,Policy Interpretation,SOFT
+AYUSH Regulatory Affairs,Compliance Manager,AYUSH Licensing Procedures,TECHNICAL
+AYUSH Regulatory Affairs,Compliance Manager,Drug Regulatory Documentation,TECHNICAL
+AYUSH Regulatory Affairs,Compliance Manager,GMP/GLP Compliance,TECHNICAL
+AYUSH Regulatory Affairs,Compliance Manager,Import-Export Regulations,TECHNICAL
+AYUSH Regulatory Affairs,Compliance Manager,Labeling Compliance,TECHNICAL
+AYUSH Regulatory Affairs,Compliance Manager,AYUSH Premium Mark Certification,TECHNICAL
+AYUSH Regulatory Affairs,Compliance Manager,Pharmacovigilance for AYUSH Drugs,TECHNICAL
+AYUSH Regulatory Affairs,Compliance Manager,Regulatory Audit Preparation,TECHNICAL
+AYUSH Regulatory Affairs,Compliance Manager,Policy Interpretation,SOFT
+AYUSH Regulatory Affairs,Policy Advisor,AYUSH Licensing Procedures,TECHNICAL
+AYUSH Regulatory Affairs,Policy Advisor,Drug Regulatory Documentation,TECHNICAL
+AYUSH Regulatory Affairs,Policy Advisor,GMP/GLP Compliance,TECHNICAL
+AYUSH Regulatory Affairs,Policy Advisor,Import-Export Regulations,TECHNICAL
+AYUSH Regulatory Affairs,Policy Advisor,Labeling Compliance,TECHNICAL
+AYUSH Regulatory Affairs,Policy Advisor,AYUSH Premium Mark Certification,TECHNICAL
+AYUSH Regulatory Affairs,Policy Advisor,Pharmacovigilance for AYUSH Drugs,TECHNICAL
+AYUSH Regulatory Affairs,Policy Advisor,Regulatory Audit Preparation,TECHNICAL
+AYUSH Regulatory Affairs,Policy Advisor,Policy Interpretation,SOFT
+AYUSH Clinical Research,Clinical Research Associate,Clinical Trial Design,TECHNICAL
+AYUSH Clinical Research,Clinical Research Associate,Evidence-Based Traditional Medicine,TECHNICAL
+AYUSH Clinical Research,Clinical Research Associate,Good Clinical Practice,TECHNICAL
+AYUSH Clinical Research,Clinical Research Associate,Biostatistics,TECHNICAL
+AYUSH Clinical Research,Clinical Research Associate,Research Ethics & Protocols,TECHNICAL
+AYUSH Clinical Research,Clinical Research Associate,Reverse Pharmacology Methods,TECHNICAL
+AYUSH Clinical Research,Clinical Research Associate,Systematic Review & Meta-analysis,TECHNICAL
+AYUSH Clinical Research,Clinical Research Associate,Grant Proposal Writing,SOFT
+AYUSH Clinical Research,Clinical Research Associate,Scientific Writing,SOFT
+AYUSH Clinical Research,Research Scientist,Clinical Trial Design,TECHNICAL
+AYUSH Clinical Research,Research Scientist,Evidence-Based Traditional Medicine,TECHNICAL
+AYUSH Clinical Research,Research Scientist,Good Clinical Practice,TECHNICAL
+AYUSH Clinical Research,Research Scientist,Biostatistics,TECHNICAL
+AYUSH Clinical Research,Research Scientist,Research Ethics & Protocols,TECHNICAL
+AYUSH Clinical Research,Research Scientist,Reverse Pharmacology Methods,TECHNICAL
+AYUSH Clinical Research,Research Scientist,Systematic Review & Meta-analysis,TECHNICAL
+AYUSH Clinical Research,Research Scientist,Grant Proposal Writing,SOFT
+AYUSH Clinical Research,Research Scientist,Scientific Writing,SOFT
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Clinical Trial Design,TECHNICAL
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Evidence-Based Traditional Medicine,TECHNICAL
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Good Clinical Practice,TECHNICAL
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Biostatistics,TECHNICAL
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Research Ethics & Protocols,TECHNICAL
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Reverse Pharmacology Methods,TECHNICAL
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Systematic Review & Meta-analysis,TECHNICAL
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Grant Proposal Writing,SOFT
+AYUSH Clinical Research,Evidence-Based Medicine Specialist,Scientific Writing,SOFT
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Ahara Vidhi,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Prakriti-based Diet Planning,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Therapeutic Food Formulation,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Nutraceutical Knowledge,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Client Diet Counseling,SOFT
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Rasa-Guna-Virya Analysis,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Ritucharya (Seasonal Diet),TECHNICAL
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Weight Management Protocols,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Ayurvedic Nutritionist,Dietary Compliance Coaching,SOFT
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Ahara Vidhi,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Prakriti-based Diet Planning,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Therapeutic Food Formulation,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Nutraceutical Knowledge,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Client Diet Counseling,SOFT
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Rasa-Guna-Virya Analysis,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Ritucharya (Seasonal Diet),TECHNICAL
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Weight Management Protocols,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Diet Consultant,Dietary Compliance Coaching,SOFT
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Ahara Vidhi,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Prakriti-based Diet Planning,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Therapeutic Food Formulation,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Nutraceutical Knowledge,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Client Diet Counseling,SOFT
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Rasa-Guna-Virya Analysis,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Ritucharya (Seasonal Diet),TECHNICAL
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Weight Management Protocols,TECHNICAL
+Ayurvedic Nutrition & Dietetics,Wellness Nutrition Coach,Dietary Compliance Coaching,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,Wellness Retreat Program Design,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,Spa Therapy Protocols,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,Hospitality Management,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,Wellness Product Knowledge,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,Client Service & Sales,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,Wellness Package Curation,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,International Client Handling,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,Facility Operations Management,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Retreat Manager,Wellness Tourism Marketing,SOFT
+AYUSH Wellness Tourism & Spa Management,Spa Director,Wellness Retreat Program Design,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Spa Director,Spa Therapy Protocols,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Spa Director,Hospitality Management,SOFT
+AYUSH Wellness Tourism & Spa Management,Spa Director,Wellness Product Knowledge,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Spa Director,Client Service & Sales,SOFT
+AYUSH Wellness Tourism & Spa Management,Spa Director,Wellness Package Curation,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Spa Director,International Client Handling,SOFT
+AYUSH Wellness Tourism & Spa Management,Spa Director,Facility Operations Management,SOFT
+AYUSH Wellness Tourism & Spa Management,Spa Director,Wellness Tourism Marketing,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,Wellness Retreat Program Design,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,Spa Therapy Protocols,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,Hospitality Management,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,Wellness Product Knowledge,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,Client Service & Sales,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,Wellness Package Curation,TECHNICAL
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,International Client Handling,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,Facility Operations Management,SOFT
+AYUSH Wellness Tourism & Spa Management,Wellness Tourism Consultant,Wellness Tourism Marketing,SOFT
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,AYUSH EHR Systems,TECHNICAL
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,NAMASTE Terminology Coding,TECHNICAL
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,Telemedicine Platforms,TECHNICAL
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,Health Data Management,TECHNICAL
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,Digital Literacy Training,SOFT
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,AYUSH Grid Portal Usage,TECHNICAL
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,Data Privacy in Healthcare,TECHNICAL
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,Mobile Health App Familiarity,TECHNICAL
+AYUSH Digital Health & Informatics,AYUSH Health IT Specialist,Tech-enabled Patient Communication,SOFT
+AYUSH Digital Health & Informatics,Digital Health Coordinator,AYUSH EHR Systems,TECHNICAL
+AYUSH Digital Health & Informatics,Digital Health Coordinator,NAMASTE Terminology Coding,TECHNICAL
+AYUSH Digital Health & Informatics,Digital Health Coordinator,Telemedicine Platforms,TECHNICAL
+AYUSH Digital Health & Informatics,Digital Health Coordinator,Health Data Management,TECHNICAL
+AYUSH Digital Health & Informatics,Digital Health Coordinator,Digital Literacy Training,SOFT
+AYUSH Digital Health & Informatics,Digital Health Coordinator,AYUSH Grid Portal Usage,TECHNICAL
+AYUSH Digital Health & Informatics,Digital Health Coordinator,Data Privacy in Healthcare,TECHNICAL
+AYUSH Digital Health & Informatics,Digital Health Coordinator,Mobile Health App Familiarity,TECHNICAL
+AYUSH Digital Health & Informatics,Digital Health Coordinator,Tech-enabled Patient Communication,SOFT
+AYUSH Digital Health & Informatics,Health Informatics Analyst,AYUSH EHR Systems,TECHNICAL
+AYUSH Digital Health & Informatics,Health Informatics Analyst,NAMASTE Terminology Coding,TECHNICAL
+AYUSH Digital Health & Informatics,Health Informatics Analyst,Telemedicine Platforms,TECHNICAL
+AYUSH Digital Health & Informatics,Health Informatics Analyst,Health Data Management,TECHNICAL
+AYUSH Digital Health & Informatics,Health Informatics Analyst,Digital Literacy Training,SOFT
+AYUSH Digital Health & Informatics,Health Informatics Analyst,AYUSH Grid Portal Usage,TECHNICAL
+AYUSH Digital Health & Informatics,Health Informatics Analyst,Data Privacy in Healthcare,TECHNICAL
+AYUSH Digital Health & Informatics,Health Informatics Analyst,Mobile Health App Familiarity,TECHNICAL
+AYUSH Digital Health & Informatics,Health Informatics Analyst,Tech-enabled Patient Communication,SOFT
+Medicinal Plant Cultivation,Medicinal Plant Farmer,Herbal Farming Techniques,TECHNICAL
+Medicinal Plant Cultivation,Medicinal Plant Farmer,GACP,TECHNICAL
+Medicinal Plant Cultivation,Medicinal Plant Farmer,Medicinal Plant Identification,TECHNICAL
+Medicinal Plant Cultivation,Medicinal Plant Farmer,Post-Harvest Processing,TECHNICAL
+Medicinal Plant Cultivation,Medicinal Plant Farmer,Organic Cultivation Methods,TECHNICAL
+Medicinal Plant Cultivation,Medicinal Plant Farmer,Seed Bank Management,TECHNICAL
+Medicinal Plant Cultivation,Medicinal Plant Farmer,Soil & Water Management,TECHNICAL
+Medicinal Plant Cultivation,Medicinal Plant Farmer,Pest Management (Organic),TECHNICAL
+Medicinal Plant Cultivation,Medicinal Plant Farmer,Crop Yield Optimization,TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,Herbal Farming Techniques,TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,GACP,TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,Medicinal Plant Identification,TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,Post-Harvest Processing,TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,Organic Cultivation Methods,TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,Seed Bank Management,TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,Soil & Water Management,TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,Pest Management (Organic),TECHNICAL
+Medicinal Plant Cultivation,Herbal Agriculture Specialist,Crop Yield Optimization,TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,Herbal Farming Techniques,TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,GACP,TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,Medicinal Plant Identification,TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,Post-Harvest Processing,TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,Organic Cultivation Methods,TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,Seed Bank Management,TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,Soil & Water Management,TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,Pest Management (Organic),TECHNICAL
+Medicinal Plant Cultivation,GACP Consultant,Crop Yield Optimization,TECHNICAL
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,Healthcare Facility Management,SOFT
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,AYUSH Hospital Accreditation Standards,TECHNICAL
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,Inventory & Supply Management,TECHNICAL
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,Staff Scheduling,SOFT
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,Patient Records Management,TECHNICAL
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,Billing & Insurance Coordination,TECHNICAL
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,Facility Compliance Audits,TECHNICAL
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,Vendor Management,SOFT
+AYUSH Hospital & Clinic Administration,AYUSH Hospital Administrator,Crisis/Emergency Coordination,SOFT
+AYUSH Hospital & Clinic Administration,Clinic Manager,Healthcare Facility Management,SOFT
+AYUSH Hospital & Clinic Administration,Clinic Manager,AYUSH Hospital Accreditation Standards,TECHNICAL
+AYUSH Hospital & Clinic Administration,Clinic Manager,Inventory & Supply Management,TECHNICAL
+AYUSH Hospital & Clinic Administration,Clinic Manager,Staff Scheduling,SOFT
+AYUSH Hospital & Clinic Administration,Clinic Manager,Patient Records Management,TECHNICAL
+AYUSH Hospital & Clinic Administration,Clinic Manager,Billing & Insurance Coordination,TECHNICAL
+AYUSH Hospital & Clinic Administration,Clinic Manager,Facility Compliance Audits,TECHNICAL
+AYUSH Hospital & Clinic Administration,Clinic Manager,Vendor Management,SOFT
+AYUSH Hospital & Clinic Administration,Clinic Manager,Crisis/Emergency Coordination,SOFT
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,Healthcare Facility Management,SOFT
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,AYUSH Hospital Accreditation Standards,TECHNICAL
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,Inventory & Supply Management,TECHNICAL
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,Staff Scheduling,SOFT
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,Patient Records Management,TECHNICAL
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,Billing & Insurance Coordination,TECHNICAL
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,Facility Compliance Audits,TECHNICAL
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,Vendor Management,SOFT
+AYUSH Hospital & Clinic Administration,Healthcare Operations Manager,Crisis/Emergency Coordination,SOFT
+AYUSH Public Health & Community Outreach,Public Health Officer,Community Health Education,SOFT
+AYUSH Public Health & Community Outreach,Public Health Officer,AYUSH Program Implementation,TECHNICAL
+AYUSH Public Health & Community Outreach,Public Health Officer,Health Camp Organization,SOFT
+AYUSH Public Health & Community Outreach,Public Health Officer,Traditional Knowledge Documentation,TECHNICAL
+AYUSH Public Health & Community Outreach,Public Health Officer,Public Health Messaging,SOFT
+AYUSH Public Health & Community Outreach,Public Health Officer,Rural Healthcare Delivery,SOFT
+AYUSH Public Health & Community Outreach,Public Health Officer,Government Scheme Awareness,TECHNICAL
+AYUSH Public Health & Community Outreach,Public Health Officer,Data Collection for Health Surveys,TECHNICAL
+AYUSH Public Health & Community Outreach,Public Health Officer,Stakeholder Coordination,SOFT
+AYUSH Public Health & Community Outreach,Community Health Worker,Community Health Education,SOFT
+AYUSH Public Health & Community Outreach,Community Health Worker,AYUSH Program Implementation,TECHNICAL
+AYUSH Public Health & Community Outreach,Community Health Worker,Health Camp Organization,SOFT
+AYUSH Public Health & Community Outreach,Community Health Worker,Traditional Knowledge Documentation,TECHNICAL
+AYUSH Public Health & Community Outreach,Community Health Worker,Public Health Messaging,SOFT
+AYUSH Public Health & Community Outreach,Community Health Worker,Rural Healthcare Delivery,SOFT
+AYUSH Public Health & Community Outreach,Community Health Worker,Government Scheme Awareness,TECHNICAL
+AYUSH Public Health & Community Outreach,Community Health Worker,Data Collection for Health Surveys,TECHNICAL
+AYUSH Public Health & Community Outreach,Community Health Worker,Stakeholder Coordination,SOFT
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,Community Health Education,SOFT
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,AYUSH Program Implementation,TECHNICAL
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,Health Camp Organization,SOFT
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,Traditional Knowledge Documentation,TECHNICAL
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,Public Health Messaging,SOFT
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,Rural Healthcare Delivery,SOFT
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,Government Scheme Awareness,TECHNICAL
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,Data Collection for Health Surveys,TECHNICAL
+AYUSH Public Health & Community Outreach,AYUSH Program Coordinator,Stakeholder Coordination,SOFT
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Herbal Skincare Formulation,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Ayurvedic Beauty Treatments,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Product Knowledge (Natural Cosmetics),TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Client Consultation,SOFT
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Treatment Protocol Design,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Hair & Scalp Therapy,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Facial Marma Therapy,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Skin Type Analysis,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Ayurvedic Cosmetologist,Retail & Upselling,SOFT
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Herbal Skincare Formulation,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Ayurvedic Beauty Treatments,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Product Knowledge (Natural Cosmetics),TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Client Consultation,SOFT
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Treatment Protocol Design,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Hair & Scalp Therapy,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Facial Marma Therapy,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Skin Type Analysis,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Beauty Therapist,Retail & Upselling,SOFT
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Herbal Skincare Formulation,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Ayurvedic Beauty Treatments,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Product Knowledge (Natural Cosmetics),TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Client Consultation,SOFT
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Treatment Protocol Design,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Hair & Scalp Therapy,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Facial Marma Therapy,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Skin Type Analysis,TECHNICAL
+Ayurvedic Cosmetology & Beauty Therapy,Natural Skincare Consultant,Retail & Upselling,SOFT
+Yoga for Sports & Fitness,Sports Yoga Therapist,Sports-specific Yoga Therapy,TECHNICAL
+Yoga for Sports & Fitness,Sports Yoga Therapist,Injury Prevention Techniques,TECHNICAL
+Yoga for Sports & Fitness,Sports Yoga Therapist,Flexibility & Recovery Training,TECHNICAL
+Yoga for Sports & Fitness,Sports Yoga Therapist,Athlete Assessment,TECHNICAL
+Yoga for Sports & Fitness,Sports Yoga Therapist,Performance-focused Pranayama,TECHNICAL
+Yoga for Sports & Fitness,Sports Yoga Therapist,Sports Nutrition Basics,TECHNICAL
+Yoga for Sports & Fitness,Sports Yoga Therapist,Rehabilitation Yoga,TECHNICAL
+Yoga for Sports & Fitness,Sports Yoga Therapist,Strength & Conditioning Integration,TECHNICAL
+Yoga for Sports & Fitness,Sports Yoga Therapist,Athlete Communication,SOFT
+Yoga for Sports & Fitness,Athletic Trainer,Sports-specific Yoga Therapy,TECHNICAL
+Yoga for Sports & Fitness,Athletic Trainer,Injury Prevention Techniques,TECHNICAL
+Yoga for Sports & Fitness,Athletic Trainer,Flexibility & Recovery Training,TECHNICAL
+Yoga for Sports & Fitness,Athletic Trainer,Athlete Assessment,TECHNICAL
+Yoga for Sports & Fitness,Athletic Trainer,Performance-focused Pranayama,TECHNICAL
+Yoga for Sports & Fitness,Athletic Trainer,Sports Nutrition Basics,TECHNICAL
+Yoga for Sports & Fitness,Athletic Trainer,Rehabilitation Yoga,TECHNICAL
+Yoga for Sports & Fitness,Athletic Trainer,Strength & Conditioning Integration,TECHNICAL
+Yoga for Sports & Fitness,Athletic Trainer,Athlete Communication,SOFT
+Yoga for Sports & Fitness,Performance Coach,Sports-specific Yoga Therapy,TECHNICAL
+Yoga for Sports & Fitness,Performance Coach,Injury Prevention Techniques,TECHNICAL
+Yoga for Sports & Fitness,Performance Coach,Flexibility & Recovery Training,TECHNICAL
+Yoga for Sports & Fitness,Performance Coach,Athlete Assessment,TECHNICAL
+Yoga for Sports & Fitness,Performance Coach,Performance-focused Pranayama,TECHNICAL
+Yoga for Sports & Fitness,Performance Coach,Sports Nutrition Basics,TECHNICAL
+Yoga for Sports & Fitness,Performance Coach,Rehabilitation Yoga,TECHNICAL
+Yoga for Sports & Fitness,Performance Coach,Strength & Conditioning Integration,TECHNICAL
+Yoga for Sports & Fitness,Performance Coach,Athlete Communication,SOFT
+AYUSH Education & Academic Training,AYUSH Faculty Member,Curriculum Development,TECHNICAL
+AYUSH Education & Academic Training,AYUSH Faculty Member,Classical Text Teaching,TECHNICAL
+AYUSH Education & Academic Training,AYUSH Faculty Member,Clinical Training Supervision,SOFT
+AYUSH Education & Academic Training,AYUSH Faculty Member,Academic Research Writing,SOFT
+AYUSH Education & Academic Training,AYUSH Faculty Member,Student Assessment Design,TECHNICAL
+AYUSH Education & Academic Training,AYUSH Faculty Member,E-learning Content Creation,TECHNICAL
+AYUSH Education & Academic Training,AYUSH Faculty Member,Sanskrit/Classical Language Instruction,TECHNICAL
+AYUSH Education & Academic Training,AYUSH Faculty Member,Mentorship & Guidance,SOFT
+AYUSH Education & Academic Training,AYUSH Faculty Member,Academic Publication,SOFT
+AYUSH Education & Academic Training,Clinical Training Supervisor,Curriculum Development,TECHNICAL
+AYUSH Education & Academic Training,Clinical Training Supervisor,Classical Text Teaching,TECHNICAL
+AYUSH Education & Academic Training,Clinical Training Supervisor,Clinical Training Supervision,SOFT
+AYUSH Education & Academic Training,Clinical Training Supervisor,Academic Research Writing,SOFT
+AYUSH Education & Academic Training,Clinical Training Supervisor,Student Assessment Design,TECHNICAL
+AYUSH Education & Academic Training,Clinical Training Supervisor,E-learning Content Creation,TECHNICAL
+AYUSH Education & Academic Training,Clinical Training Supervisor,Sanskrit/Classical Language Instruction,TECHNICAL
+AYUSH Education & Academic Training,Clinical Training Supervisor,Mentorship & Guidance,SOFT
+AYUSH Education & Academic Training,Clinical Training Supervisor,Academic Publication,SOFT
+AYUSH Education & Academic Training,Academic Researcher,Curriculum Development,TECHNICAL
+AYUSH Education & Academic Training,Academic Researcher,Classical Text Teaching,TECHNICAL
+AYUSH Education & Academic Training,Academic Researcher,Clinical Training Supervision,SOFT
+AYUSH Education & Academic Training,Academic Researcher,Academic Research Writing,SOFT
+AYUSH Education & Academic Training,Academic Researcher,Student Assessment Design,TECHNICAL
+AYUSH Education & Academic Training,Academic Researcher,E-learning Content Creation,TECHNICAL
+AYUSH Education & Academic Training,Academic Researcher,Sanskrit/Classical Language Instruction,TECHNICAL
+AYUSH Education & Academic Training,Academic Researcher,Mentorship & Guidance,SOFT
+AYUSH Education & Academic Training,Academic Researcher,Academic Publication,SOFT
