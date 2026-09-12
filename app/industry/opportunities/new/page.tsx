@@ -136,8 +136,11 @@ export default function NewOpportunityPage() {
         }),
       });
 
+      console.log('📤 POST /api/industry/opportunities - Response status:', res.status);
+      
       if (res.ok) {
         const data = await res.json();
+        console.log('✅ Opportunity created successfully:', data);
         
         // MOCK MODE - Store in localStorage
         if (data.useMockStorage) {
@@ -165,11 +168,13 @@ export default function NewOpportunityPage() {
         
         router.push(`/industry/opportunities/${data.opportunity.id}`);
       } else {
-        alert('Failed to create opportunity. Please try again.');
+        const errorData = await res.json().catch(() => ({ error: 'Unknown error' }));
+        console.error('❌ Failed to create opportunity:', res.status, errorData);
+        alert(`Failed to create opportunity: ${errorData.error || 'Please try again.'}`);
       }
     } catch (error) {
-      console.error('Failed to create opportunity:', error);
-      alert('Failed to create opportunity. Please try again.');
+      console.error('❌ Network or unexpected error:', error);
+      alert('Failed to create opportunity. Network error - please check console.');
     } finally {
       setSubmitting(false);
     }

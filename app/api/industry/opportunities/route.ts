@@ -86,9 +86,13 @@ export async function GET() {
 // POST /api/industry/opportunities - Create new opportunity
 export async function POST(request: Request) {
   try {
+    console.log('📥 POST /api/industry/opportunities - Request received');
+    
     const authUser = await getAuthUser();
+    console.log('   Auth user:', authUser ? `${authUser.email} (${authUser.role})` : 'None');
 
     if (!authUser || authUser.role !== 'INDUSTRY') {
+      console.log('   ❌ Unauthorized - Role:', authUser?.role);
       return NextResponse.json(
         { error: 'Unauthorized - Industry users only' },
         { status: 403 }
@@ -96,6 +100,12 @@ export async function POST(request: Request) {
     }
 
     const body = await request.json();
+    console.log('   Request body keys:', Object.keys(body));
+    console.log('   Title:', body.title);
+    console.log('   Type:', body.type);
+    console.log('   Field ID:', body.fieldId);
+    console.log('   Required Skills count:', body.requiredSkills?.length || 0);
+    
     const {
       title,
       description,
@@ -110,6 +120,7 @@ export async function POST(request: Request) {
 
     // Validate required fields
     if (!title || !description || !type || !fieldId) {
+      console.log('   ❌ Missing required fields:', { title: !!title, description: !!description, type: !!type, fieldId: !!fieldId });
       return NextResponse.json(
         { error: 'Missing required fields' },
         { status: 400 }
@@ -118,11 +129,13 @@ export async function POST(request: Request) {
 
     // Validate type
     if (!Object.values(OpportunityType).includes(type)) {
+      console.log('   ❌ Invalid opportunity type:', type);
       return NextResponse.json({ error: 'Invalid opportunity type' }, { status: 400 });
     }
 
     // Validate domain if provided
     if (domain && !Object.values(Domain).includes(domain)) {
+      console.log('   ❌ Invalid domain:', domain);
       return NextResponse.json({ error: 'Invalid domain' }, { status: 400 });
     }
 
@@ -151,6 +164,7 @@ export async function POST(request: Request) {
         requiredSkills: (requiredSkills || []),
       };
 
+      console.log('   ✅ Returning mock opportunity:', mockOpportunity.id);
       return NextResponse.json({ 
         opportunity: mockOpportunity,
         useMockStorage: true 
