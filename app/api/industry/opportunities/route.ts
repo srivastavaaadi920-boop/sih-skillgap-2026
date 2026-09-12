@@ -87,17 +87,31 @@ export async function GET() {
 export async function POST(request: Request) {
   try {
     console.log('📥 POST /api/industry/opportunities - Request received');
+    console.log('   Headers:', Object.fromEntries(request.headers.entries()));
     
     const authUser = await getAuthUser();
-    console.log('   Auth user:', authUser ? `${authUser.email} (${authUser.role})` : 'None');
+    console.log('   Auth user result:', authUser);
+    console.log('   Auth user exists:', !!authUser);
+    console.log('   Auth user email:', authUser?.email);
+    console.log('   Auth user role:', authUser?.role);
 
-    if (!authUser || authUser.role !== 'INDUSTRY') {
-      console.log('   ❌ Unauthorized - Role:', authUser?.role);
+    if (!authUser) {
+      console.log('   ❌ No auth user found');
+      return NextResponse.json(
+        { error: 'Unauthorized - Not authenticated' },
+        { status: 401 }
+      );
+    }
+
+    if (authUser.role !== 'INDUSTRY') {
+      console.log('   ❌ Wrong role - Expected INDUSTRY, got:', authUser.role);
       return NextResponse.json(
         { error: 'Unauthorized - Industry users only' },
         { status: 403 }
       );
     }
+
+    console.log('   ✅ Auth check passed');
 
     const body = await request.json();
     console.log('   Request body keys:', Object.keys(body));

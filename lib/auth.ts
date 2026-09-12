@@ -35,14 +35,27 @@ export async function verifyToken(token: string): Promise<JWTPayload | null> {
 }
 
 export async function getAuthUser(): Promise<JWTPayload | null> {
-  const cookieStore = await cookies();
-  const token = cookieStore.get(COOKIE_NAME)?.value;
-  
-  if (!token) {
+  try {
+    console.log('🔐 getAuthUser() called');
+    const cookieStore = await cookies();
+    const token = cookieStore.get(COOKIE_NAME)?.value;
+    
+    console.log('   Cookie name:', COOKIE_NAME);
+    console.log('   Token exists:', !!token);
+    console.log('   Token (first 20 chars):', token?.substring(0, 20) + '...');
+    
+    if (!token) {
+      console.log('   ❌ No token found in cookies');
+      return null;
+    }
+    
+    const result = await verifyToken(token);
+    console.log('   Verification result:', result ? `${result.email} (${result.role})` : 'null');
+    return result;
+  } catch (error) {
+    console.error('❌ getAuthUser() error:', error);
     return null;
   }
-  
-  return verifyToken(token);
 }
 
 export function createAuthCookie(token: string) {
